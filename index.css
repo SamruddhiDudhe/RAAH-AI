@@ -1,0 +1,246 @@
+@import "tailwindcss";
+
+/* -------------------------------------------------------------------------- */
+/* WHITE / LIGHT THEME STYLES ("LOOKOUT: WHITE")                              */
+/* -------------------------------------------------------------------------- */
+.theme-light {
+  color-scheme: light;
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+/* Backgrounds */
+.theme-light .bg-slate-950 {
+  background-color: #f8fafc !important;
+}
+
+.theme-light .bg-slate-900 {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0;
+}
+
+.theme-light .bg-slate-900\/95,
+.theme-light .bg-slate-900\/90,
+.theme-light .bg-slate-900\/80 {
+  background-color: rgba(255, 255, 255, 0.96) !important;
+}
+
+.theme-light .bg-slate-800 {
+  background-color: #f1f5f9 !important;
+}
+
+.theme-light .bg-slate-800\/80,
+.theme-light .bg-slate-800\/60,
+.theme-light .bg-slate-800\/50 {
+  background-color: rgba(241, 245, 249, 0.85) !important;
+}
+
+.theme-light .hover\:bg-slate-800:hover {
+  background-color: #f1f5f9 !important;
+}
+
+.theme-light .hover\:bg-slate-700:hover {
+  background-color: #e2e8f0 !important;
+}
+
+.theme-light .hover\:bg-slate-900:hover {
+  background-color: #f8fafc !important;
+}
+
+/* Borders */
+.theme-light .border-slate-800,
+.theme-light .border-slate-800\/80,
+.theme-light .border-slate-800\/60 {
+  border-color: #e2e8f0 !important;
+}
+
+.theme-light .border-slate-700,
+.theme-light .border-slate-700\/80 {
+  border-color: #cbd5e1 !important;
+}
+
+/* Typography & Contrast */
+.theme-light h1,
+.theme-light h2,
+.theme-light h3,
+.theme-light h4,
+.theme-light h5,
+.theme-light h6 {
+  color: #0f172a !important;
+}
+
+.theme-light .text-slate-100 {
+  color: #0f172a !important;
+}
+
+.theme-light .text-slate-200 {
+  color: #1e293b !important;
+}
+
+.theme-light .text-slate-300 {
+  color: #334155 !important;
+}
+
+.theme-light .text-slate-400 {
+  color: #64748b !important;
+}
+
+.theme-light .text-slate-500 {
+  color: #64748b !important;
+}
+
+/* Brand Logo & Banner visibility */
+.brand-logo-title {
+  color: #ffffff;
+}
+
+.project-scope-banner {
+  background-color: rgba(2, 6, 23, 0.7);
+  border-color: #1e293b;
+  color: #94a3b8;
+}
+
+.theme-light .brand-logo-title {
+  color: #0f172a !important;
+}
+
+.theme-light .project-scope-banner {
+  background-color: #f1f5f9 !important;
+  border-color: #e2e8f0 !important;
+}
+
+.theme-light .project-scope-banner * {
+  color: #334155;
+}
+
+.theme-light .project-scope-banner span {
+  color: #0f172a !important;
+}
+
+/* Ensure solid color buttons retain crisp white text */
+.theme-light .bg-emerald-600,
+.theme-light .bg-emerald-600 *,
+.theme-light .bg-red-600,
+.theme-light .bg-red-600 *,
+.theme-light .bg-blue-600,
+.theme-light .bg-blue-600 *,
+.theme-light .bg-rose-600,
+.theme-light .bg-rose-600 *,
+.theme-light .bg-indigo-600,
+.theme-light .bg-indigo-600 * {
+  color: #ffffff !important;
+}
+
+/* Form Controls & Inputs */
+.theme-light input[type="text"],
+.theme-light input[type="number"],
+.theme-light input[type="search"],
+.theme-light textarea,
+.theme-light select {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+.theme-light select option {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
+
+/* Cards & Elevated Containers */
+.theme-light .rounded-xl,
+.theme-light .rounded-2xl {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.05), 0 1px 2px -1px rgb(0 0 0 / 0.05);
+}
+
+/* Emergency Alert & Danger Tints */
+.theme-light .from-red-950\/90 {
+  background-image: linear-gradient(to right, #fef2f2, #fee2e2, #ffffff) !important;
+  border-color: #fca5a5 !important;
+}
+
+.theme-light .bg-red-950 {
+  background-color: #fef2f2 !important;
+  border-color: #fca5a5 !important;
+}
+
+.theme-light .text-red-300,
+.theme-light .text-red-400 {
+  color: #dc2626 !important;
+}
+
+.theme-light .bg-red-950\/20 {
+  background-color: #fef2f2 !important;
+  border-color: #fecaca !important;
+}
+
+/* Emerald & Safe Tints */
+.theme-light .bg-emerald-950,
+.theme-light .bg-emerald-950\/90,
+.theme-light .bg-emerald-950\/60,
+.theme-light .bg-emerald-950\/30 {
+  background-color: #ecfdf5 !important;
+  border-color: #a7f3d0 !important;
+}
+
+.theme-light .text-emerald-300,
+.theme-light .text-emerald-400 {
+  color: #059669 !important;
+}
+
+/* Amber / Warning Tints */
+.theme-light .bg-amber-950 {
+  background-color: #fffbeb !important;
+  border-color: #fde68a !important;
+}
+
+.theme-light .text-amber-300,
+.theme-light .text-amber-400 {
+  color: #d97706 !important;
+}
+
+/* Blue Tints */
+.theme-light .bg-blue-950 {
+  background-color: #eff6ff !important;
+  border-color: #bfdbfe !important;
+}
+
+.theme-light .text-blue-300,
+.theme-light .text-blue-400 {
+  color: #2563eb !important;
+}
+
+/* Rose / Priority Tints */
+.theme-light .bg-rose-950,
+.theme-light .bg-rose-950\/30 {
+  background-color: #fff1f2 !important;
+  border-color: #fecdd3 !important;
+}
+
+.theme-light .text-rose-300,
+.theme-light .text-rose-400 {
+  color: #e11d48 !important;
+}
+
+/* Northeast GIS SVG Canvas */
+.theme-light .gis-canvas-container {
+  background-color: #f1f5f9 !important;
+}
+
+.theme-light #terrain-contours path {
+  stroke: #94a3b8 !important;
+}
+
+.theme-light svg text {
+  fill: #334155 !important;
+}
+
+.theme-light svg text[fill="#38bdf8"] {
+  fill: #0284c7 !important;
+}
+
+.theme-light svg text[fill="#f87171"],
+.theme-light svg text[fill="#ef4444"] {
+  fill: #dc2626 !important;
+}
+

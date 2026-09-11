@@ -1,0 +1,6 @@
+{
+  "name": "RAAH AI",
+  "description": "AI-Powered Smart Logistics & Accessibility Intelligence Platform for the North Eastern Region of India (Smart India Hackathon 2026).",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
